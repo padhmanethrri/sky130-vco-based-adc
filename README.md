@@ -279,9 +279,4 @@ The main goals of this project are to:
 
 ---
 
-**Padhmanethrri**
 
-**Technology:** Sky130  
-**ADC Type:** VCO-Based Time-Domain ADC  
-**Resolution:** 8-bit  
-**Design Flow:** Xschem → Ngspice → Magic → Yosys → OpenROAD → LibreLane
