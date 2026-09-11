@@ -1,0 +1,11 @@
+read_verilog sync_counter.v
+hierarchy -top sync_counter
+proc
+opt
+fsm
+opt
+memory
+opt
+techmap
+opt
+write_verilog sync_counter_synth.v
