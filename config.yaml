@@ -1,0 +1,9 @@
+DESIGN_NAME: prescaler_div2
+VERILOG_FILES: dir::prescaler_div2.v
+
+CLOCK_PORT: clk_in
+CLOCK_PERIOD: 0.318
+
+pdk::sky130A:
+  FP_CORE_UTIL: 30
+  CLOCK_UNCERTAINTY_CONSTRAINT: 0.1
